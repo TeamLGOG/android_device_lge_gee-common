@@ -45,7 +45,7 @@ PRODUCT_PACKAGES += Torch
 # Ramdisk
 PRODUCT_COPY_FILES += \
         device/lge/ls970-common/ramdisk/init.ls970-common.rc:root/init.ls970-common.rc \
-        device/lge/ls970-common/ramdisk/init.ls970.usb.rc:root/init.ls970.usb.rc \
+        device/lge/ls970-common/ramdisk/init.ls970-common.usb.rc:root/init.ls970.usb.rc \
         device/lge/ls970-common/ramdisk/init.qcom.sh:root/init.qcom.sh
 
 # WiFi
